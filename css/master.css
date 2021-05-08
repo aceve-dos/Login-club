@@ -17,6 +17,10 @@ body{
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   padding: 70px 30px;
+  border-radius: 10%;
+  border-style: solid;
+  border-color: green;
+  border-width: 6px;
 }
 .login-box .avatar{
   width: 100px;
@@ -28,10 +32,11 @@ body{
 
 }
 .login-box h1{
-  margin: 0;
+  margin: 10;
   padding: 0 0 20;
   text-align: center;
   font-size: 22px;
+  font-family: 'Raleway';
 }
 
 .login-box label{
@@ -39,6 +44,7 @@ body{
   padding: 0;
   font-weight: bold;
   display: block;
+  font-family: 'Raleway';
 }
 .login-box input{
   width: 100%;
@@ -58,7 +64,7 @@ body{
   border: none;
   outline: none;
   height: 40px;
-  background: #f80f22;
+  background: #EB1C00;
   color: #fff;
   font-size: 18px;
   border-radius: 20px;
@@ -74,16 +80,17 @@ body{
   color: #fff;
 }
 .menu{
-  background-color: #000;
+  background-color: black;
   float: right;
   width: 100%;
   height: 40px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .menu-top ul{
   display: flex;
   justify-content: center;
   list-style: none;
+  align-content: center;
 }
 .menu-top a{
   color: white;
@@ -92,5 +99,8 @@ body{
   margin: 5px 10px;
 }
 .menu-top a:hover{
-  color: green;
+  color:green;
+}
+.menu-top ul li{
+  font-family: 'Raleway';
 }
