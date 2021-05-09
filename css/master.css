@@ -106,3 +106,16 @@ body{
 .menu-top ul li{
   font-family: 'Raleway';
 }
+.buttons{
+  top: 75%;
+  left: 45%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 50px 20px;
+  border-radius: 10%;
+}  
+.buttons button.facebook{
+    background-color: #4464B2;
+    color: white;
+}
